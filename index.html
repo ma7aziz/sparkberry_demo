@@ -1,0 +1,1815 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+
+    <title>SparkBerry&#8211; Store</title>
+    <style data-type="vc_shortcodes-custom-css">
+        .vc_custom_1554720339802 {
+            padding-top: 60px !important;
+        }
+
+        .vc_custom_1553076296472 {
+            margin-top: 70px !important;
+            border-top-width: 1px !important;
+            border-bottom-width: 1px !important;
+            padding-top: 20px !important;
+            padding-bottom: 20px !important;
+            background-color: rgba(0, 0, 0, 0.2) !important;
+            *background-color: rgb(0, 0, 0) !important;
+            border-top-color: #444444 !important;
+            border-top-style: solid !important;
+            border-bottom-color: #444444 !important;
+            border-bottom-style: solid !important;
+        }
+
+        .vc_custom_1553174725991 {
+            padding-top: 95px !important;
+            padding-bottom: 95px !important;
+        }
+
+        .vc_custom_1553174306180 {
+            border-top-width: 1px !important;
+            background-color: rgba(0, 0, 0, 0.2) !important;
+            *background-color: rgb(0, 0, 0) !important;
+            border-top-color: #444444 !important;
+            border-top-style: solid !important;
+        }
+
+        .vc_custom_1553174747608 {
+            padding-top: 0px !important;
+        }
+
+        .vc_custom_1553174332094 {
+            margin-top: 45px !important;
+            margin-bottom: 45px !important;
+        }
+
+        .vc_custom_1553235086985 {
+            margin-top: 45px !important;
+            margin-bottom: 45px !important;
+        }
+
+        .vc_custom_1553238016048 {
+            margin-top: 50px !important;
+            margin-bottom: 50px !important;
+        }
+    </style>
+    <script>
+        /* You can add more configuration options to webfontloader by previously defining the WebFontConfig with your options */
+        if (typeof WebFontConfig === "undefined") {
+            WebFontConfig = new Object();
+        }
+        WebFontConfig['google'] = {
+            families: [
+                'Poppins:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic',
+                'Fira+Sans:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic'
+            ]
+        };
+
+        (function () {
+            var wf = document.createElement('script');
+            wf.src = './ajax.googleapis.com/ajax/libs/webfont/1.5.3/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })();
+    </script>
+    <link rel='dns-prefetch' href='http://s.w.org/' />
+    <link rel="alternate" type="application/rss+xml" title="Luxa &raquo; Feed" href="../feed/index.html" />
+    <link rel="alternate" type="application/rss+xml" title="Luxa &raquo; Comments Feed"
+        href="../comments/feed/index.html" />
+    <script>
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/",
+            "ext": ".png",
+            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/",
+            "svgExt": ".svg",
+            "source": {
+                "concatemoji": "https:\/\/promo-theme.com\/luxa\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.4"
+            }
+        };
+        ! function (e, a, t) {
+            var r, n, o, i, p = a.createElement("canvas"),
+                s = p.getContext && p.getContext("2d");
+
+            function c(e, t) {
+                var a = String.fromCharCode;
+                s.clearRect(0, 0, p.width, p.height), s.fillText(a.apply(this, e), 0, 0);
+                var r = p.toDataURL();
+                return s.clearRect(0, 0, p.width, p.height), s.fillText(a.apply(this, t), 0, 0), r === p.toDataURL()
+            }
+
+            function l(e) {
+                if (!s || !s.fillText) return !1;
+                switch (s.textBaseline = "top", s.font = "600 32px Arial", e) {
+                    case "flag":
+                        return !c([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) && (!c([55356,
+                            56826,
+                            55356, 56819
+                        ], [55356, 56826, 8203, 55356, 56819]) && !c([55356, 57332, 56128, 56423, 56128, 56418,
+                            56128, 56421,
+                            56128, 56430, 56128, 56423, 56128, 56447
+                        ], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203,
+                            56128, 56430,
+                            8203, 56128, 56423, 8203, 56128, 56447
+                        ]));
+                    case "emoji":
+                        return !c([55357, 56424, 55356, 57342, 8205, 55358, 56605, 8205, 55357, 56424, 55356, 57340], [
+                            55357, 56424,
+                            55356, 57342, 8203, 55358, 56605, 8203, 55357, 56424, 55356, 57340
+                        ])
+                }
+                return !1
+            }
+
+            function d(e) {
+                var t = a.createElement("script");
+                t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
+            }
+            for (i = Array("flag", "emoji"), t.supports = {
+                    everything: !0,
+                    everythingExceptFlag: !0
+                }, o = 0; o < i.length; o++) t.supports[i[o]] = l(i[o]), t.supports.everything = t.supports
+                .everything && t
+                .supports[i[o]], "flag" !== i[o] && (t.supports.everythingExceptFlag = t.supports
+                    .everythingExceptFlag && t
+                    .supports[i[o]]);
+            t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t
+                .readyCallback = function () {
+                    t.DOMReady = !0
+                }, t.supports.everything || (n = function () {
+                    t.readyCallback()
+                }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load",
+                    n, !1)) : (
+                    e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () {
+                        "complete" === a.readyState && t.readyCallback()
+                    })), (r = t.source || {}).concatemoji ? d(r.concatemoji) : r.wpemoji && r.twemoji && (d(r
+                    .twemoji), d(r
+                    .wpemoji)))
+        }(window, document, window._wpemojiSettings);
+    </script>
+    <style>
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' id='wp-block-library-css'
+        href='../wp-includes/css/dist/block-library/style.min03ec.css?ver=5.3.4' media='all' />
+    <link rel='stylesheet' id='wc-block-style-css'
+        href='../wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style747d.css?ver=2.4.5'
+        media='all' />
+    <link rel='stylesheet' id='contact-form-7-css'
+        href='../wp-content/plugins/contact-form-7/includes/css/styles38c6.css?ver=5.1.9' media='all' />
+    <style id='woocommerce-inline-inline-css'>
+        .woocommerce form .form-row .required {
+            visibility: visible;
+        }
+    </style>
+    <link rel='stylesheet' id='font-awesome-css'
+        href='../wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min52c7.css?ver=6.0.5'
+        media='all' />
+    <!--[if lt IE 9]>
+      <link rel='stylesheet' id='vc_lte_ie9-css'  href='https://promo-theme.com/luxa/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css?ver=6.0.5' media='screen' />
+      <![endif]-->
+    <link rel='stylesheet' id='js_composer_front-css'
+        href='../wp-content/plugins/js_composer/assets/css/js_composer.min52c7.css?ver=6.0.5' media='all' />
+    <link rel='stylesheet' id='vc_waypoints-css'
+        href='../wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.mine6df.css?ver=6.5.0'
+        media='all' />
+    <link rel='stylesheet' id='photoswipe-css' href='../wp-content/plugins/pt-luxa-addons/assets/css/photoswipe.css'
+        media='all' />
+    <link rel='stylesheet' id='pt-addons-css'
+        href='../wp-content/plugins/pt-luxa-addons/assets/css/pt-addons03ec.css?ver=5.3.4' media='all' />
+    <link rel='stylesheet' id='fontawesome-css' href='../wp-content/themes/luxa/css/fontawesome.min03ec.css?ver=5.3.4'
+        media='all' />
+    <link rel='stylesheet' id='luxa-icons-css' href='../wp-content/themes/luxa/css/iconfont03ec.css?ver=5.3.4'
+        media='all' />
+    <link rel='stylesheet' id='luxa-style-css' href='../wp-content/themes/luxa/style03ec.css?ver=5.3.4' media='all' />
+    <link rel='stylesheet' id='swiper-css' href='../wp-content/themes/luxa/css/swiper03ec.css?ver=5.3.4' media='all' />
+    <link rel='stylesheet' id='luxa-main-style-css' href='../wp-content/themes/luxa/css/main03ec.css?ver=5.3.4'
+        media='all' />
+    <link rel='stylesheet' id='woocommerce-general-css'
+        href='../wp-content/themes/luxa/css/woocommerce03ec.css?ver=5.3.4' media='all' />
+    <link rel='stylesheet' id='woocommerce-layout-css'
+        href='../wp-content/themes/luxa/css/woocommerce-layout03ec.css?ver=5.3.4' media='all' />
+    <link rel='stylesheet' id='woocommerce-smallscreen-css'
+        href='../wp-content/themes/luxa/css/woocommerce-smallscreen03ec.css?ver=5.3.4' media='all' />
+    <link rel='stylesheet' id='select2-css' href='../wp-content/themes/luxa/css/select203ec.css?ver=5.3.4'
+        media='all' />
+    <script src='../wp-includes/js/jquery/jquery4a5f.js?ver=1.12.4-wp'></script>
+    <script src='../wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1'></script>
+    <script src='../wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min44fd.js?ver=2.70'>
+    </script>
+    <script>
+        /* <![CDATA[ */
+        var wc_add_to_cart_params = {
+            "ajax_url": "\/luxa\/wp-admin\/admin-ajax.php",
+            "wc_ajax_url": "\/luxa\/?wc-ajax=%%endpoint%%",
+            "i18n_view_cart": "View cart",
+            "cart_url": "https:\/\/promo-theme.com\/luxa\/cart\/",
+            "is_cart": "",
+            "cart_redirect_after_add": "no"
+        };
+        /* ]]> */
+    </script>
+    <script src='../wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min9e95.js?ver=3.8.0'></script>
+    <script src='../wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart52c7.js?ver=6.0.5'></script>
+    <script>
+        /* <![CDATA[ */
+        var zilla_likes = {
+            "ajaxurl": "https:\/\/promo-theme.com\/luxa\/wp-admin\/admin-ajax.php"
+        };
+        /* ]]> */
+    </script>
+    <script src='../wp-content/plugins/pt-luxa-addons/assets/js/zilla-likes03ec.js?ver=5.3.4'></script>
+    <link rel='https://api.w.org/' href='../wp-json/index.html' />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml" />
+    <meta name="generator" content="WordPress 5.3.4" />
+    <meta name="generator" content="WooCommerce 3.8.0" />
+    <link rel="canonical" href="index.html" />
+    <link rel='shortlink' href='../index27ac.html?p=425' />
+    <link rel="alternate" type="application/json+oembed"
+        href="../wp-json/oembed/1.0/embedf00b.json?url=https%3A%2F%2Fpromo-theme.com%2Fluxa%2Fdesign-agency%2F" />
+    <link rel="alternate" type="text/xml+oembed"
+        href="../wp-json/oembed/1.0/embedaf2f?url=https%3A%2F%2Fpromo-theme.com%2Fluxa%2Fdesign-agency%2F&amp;format=xml" />
+    <noscript>
+        <style>
+            .woocommerce-product-gallery {
+                opacity: 1 !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        var cli_flush_cache = true;
+    </script>
+    <!-- <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
+    <link rel="icon" href="../wp-content/uploads/2019/03/cropped-favicon-100x100.png" sizes="32x32" />
+    <link rel="icon" href="../wp-content/uploads/2019/03/cropped-favicon-300x300.png" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="../wp-content/uploads/2019/03/cropped-favicon-300x300.png" />
+    <meta name="msapplication-TileImage"
+        content="https://promo-theme.com/luxa/wp-content/uploads/2019/03/cropped-favicon-300x300.png" /> -->
+    <style title="dynamic-css" class="options-output">
+        body {
+            font-family: Poppins;
+            font-weight: 400;
+            font-style: normal;
+            color: #fff;
+            font-size: 16px;
+            opacity: 1;
+            visibility: visible;
+            -webkit-transition: opacity 0.24s ease-in-out;
+            -moz-transition: opacity 0.24s ease-in-out;
+            transition: opacity 0.24s ease-in-out;
+        }
+
+        .wf-loading body {
+            opacity: 0;
+        }
+
+        .ie.wf-loading body {
+            visibility: hidden;
+        }
+
+        h1,
+        .h1 {
+            font-family: Poppins;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 60px;
+            opacity: 1;
+            visibility: visible;
+            -webkit-transition: opacity 0.24s ease-in-out;
+            -moz-transition: opacity 0.24s ease-in-out;
+            transition: opacity 0.24s ease-in-out;
+        }
+
+        .wf-loading h1,
+        .wf-loading .h1 {
+            opacity: 0;
+        }
+
+        .ie.wf-loading h1,
+        .ie.wf-loading .h1 {
+            visibility: hidden;
+        }
+
+        h2,
+        .h2 {
+            font-family: Poppins;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 48px;
+            opacity: 1;
+            visibility: visible;
+            -webkit-transition: opacity 0.24s ease-in-out;
+            -moz-transition: opacity 0.24s ease-in-out;
+            transition: opacity 0.24s ease-in-out;
+        }
+
+        .wf-loading h2,
+        .wf-loading .h2 {
+            opacity: 0;
+        }
+
+        .ie.wf-loading h2,
+        .ie.wf-loading .h2 {
+            visibility: hidden;
+        }
+
+        h3,
+        .h3 {
+            font-family: Poppins;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 36px;
+            opacity: 1;
+            visibility: visible;
+            -webkit-transition: opacity 0.24s ease-in-out;
+            -moz-transition: opacity 0.24s ease-in-out;
+            transition: opacity 0.24s ease-in-out;
+        }
+
+        .wf-loading h3,
+        .wf-loading .h3 {
+            opacity: 0;
+        }
+
+        .ie.wf-loading h3,
+        .ie.wf-loading .h3 {
+            visibility: hidden;
+        }
+
+        h4,
+        .h4 {
+            font-family: Poppins;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 30px;
+            opacity: 1;
+            visibility: visible;
+            -webkit-transition: opacity 0.24s ease-in-out;
+            -moz-transition: opacity 0.24s ease-in-out;
+            transition: opacity 0.24s ease-in-out;
+        }
+
+        .wf-loading h4,
+        .wf-loading .h4 {
+            opacity: 0;
+        }
+
+        .ie.wf-loading h4,
+        .ie.wf-loading .h4 {
+            visibility: hidden;
+        }
+
+        h5,
+        .h5 {
+            font-family: Poppins;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 24px;
+            opacity: 1;
+            visibility: visible;
+            -webkit-transition: opacity 0.24s ease-in-out;
+            -moz-transition: opacity 0.24s ease-in-out;
+            transition: opacity 0.24s ease-in-out;
+        }
+
+        .wf-loading h5,
+        .wf-loading .h5 {
+            opacity: 0;
+        }
+
+        .ie.wf-loading h5,
+        .ie.wf-loading .h5 {
+            visibility: hidden;
+        }
+
+        h6,
+        .h6 {
+            font-family: Poppins;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 18px;
+            opacity: 1;
+            visibility: visible;
+            -webkit-transition: opacity 0.24s ease-in-out;
+            -moz-transition: opacity 0.24s ease-in-out;
+            transition: opacity 0.24s ease-in-out;
+        }
+
+        .wf-loading h6,
+        .wf-loading .h6 {
+            opacity: 0;
+        }
+
+        .ie.wf-loading h6,
+        .ie.wf-loading .h6 {
+            visibility: hidden;
+        }
+    </style><noscript>
+        <style>
+            .wpb_animate_when_almost_visible {
+                opacity: 1;
+            }
+        </style>
+    </noscript>
+</head>
+
+<body
+    class="page-template page-template-template-landing page-template-template-landing-php page page-id-425 theme-luxa woocommerce-no-js chrome windows preloader-true header-container header-light header-logo-left header-space-false right-click-disable-false mobile-images-false custom-cursor-true hide-popup-download-link wpb-js-composer js-comp-ver-6.0.5 vc_responsive"
+    style="background-image: url(../wp-content/uploads/2019/03/bg-body2.jpg)">
+    <div id="page">
+        <div class="mouse-cursor" id="mouse-cursor">
+            <div class="mc-b">
+                <svg class="mc-loupe" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129">
+                    <path
+                        d="m51.6 96.7c11 0 21-3.9 28.8-10.5l35 35c0.8 0.8 1.8 1.2 2.9 1.2s2.1-0.4 2.9-1.2c1.6-1.6 1.6-4.2 0-5.8l-35-35c6.5-7.8 10.5-17.9 10.5-28.8 0-24.9-20.2-45.1-45.1-45.1-24.8 0-45.1 20.3-45.1 45.1 0 24.9 20.3 45.1 45.1 45.1zm0-82c20.4 0 36.9 16.6 36.9 36.9 0 20.4-16.5 36.9-36.9 36.9s-36.9-16.6-36.9-36.9 16.6-36.9 36.9-36.9z" />
+                </svg>
+                <svg class="mc-cart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129">
+                    <path
+                        d="m10.7 99.5h4.8c-3.3 5.9-2.5 13.5 2.5 18.5 2.9 2.9 6.8 4.5 11 4.5s8-1.6 11-4.5c2.9-2.9 4.5-6.8 4.5-11 0-2.7-0.7-5.2-2-7.5h19.3c-3.3 5.9-2.5 13.5 2.5 18.5 2.9 2.9 6.8 4.5 11 4.5s8-1.6 11-4.5c2.9-2.9 4.5-6.8 4.5-11 0-2.7-0.7-5.2-2-7.5h5.2c2.3 0 4.1-1.8 4.1-4.1 0-2.3-1.8-4.1-4.1-4.1h-79.2v-8h90c1.8 0 3.4-1.2 3.9-3l13.6-49.7c0.3-1.2 0.1-2.5-0.7-3.5-0.8-1-2-1.6-3.2-1.6h-103.6v-14.9c0-2.3-1.8-4.1-4.1-4.1s-4.1 1.8-4.1 4.1v18.9 49.7 16.1c0 2.4 1.8 4.2 4.1 4.2zm59.3 2.3c1.4-1.4 3.2-2.2 5.2-2.2 2 0 3.8 0.8 5.2 2.2 1.4 1.4 2.2 3.2 2.2 5.2 0 2-0.8 3.8-2.2 5.2-2.8 2.8-7.6 2.8-10.4 0-2.9-2.9-2.9-7.5 0-10.4zm-46.2 0c1.4-1.4 3.2-2.2 5.2-2.2 2 0 3.8 0.8 5.2 2.2 1.4 1.4 2.2 3.2 2.2 5.2 0 2-0.8 3.8-2.2 5.2-2.8 2.8-7.6 2.8-10.4 0-2.9-2.9-2.9-7.5 0-10.4zm-9-68.2h98.2l-11.4 41.6h-86.8v-41.6z" />
+                </svg>
+                <svg class="mc-cancel" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129">
+                    <path
+                        d="M7.6 121.4c0.8 0.8 1.8 1.2 2.9 1.2s2.1-0.4 2.9-1.2l51.1-51.1 51.1 51.1c0.8 0.8 1.8 1.2 2.9 1.2 1 0 2.1-0.4 2.9-1.2 1.6-1.6 1.6-4.2 0-5.8L70.3 64.5l51.1-51.1c1.6-1.6 1.6-4.2 0-5.8s-4.2-1.6-5.8 0L64.5 58.7 13.4 7.6C11.8 6 9.2 6 7.6 7.6s-1.6 4.2 0 5.8l51.1 51.1L7.6 115.6C6 117.2 6 119.8 7.6 121.4z" />
+                </svg>
+                <svg class="mc-next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129">
+                    <path
+                        d="m40.4 121.3c-0.8 0.8-1.8 1.2-2.9 1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8 0l53.9 53.9c1.6 1.6 1.6 4.2 0 5.8l-53.9 53.9z" />
+                </svg>
+                <svg class="mc-prev" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129">
+                    <path
+                        d="m88.6 121.3c0.8 0.8 1.8 1.2 2.9 1.2s2.1-0.4 2.9-1.2c1.6-1.6 1.6-4.2 0-5.8l-51-51 51-51c1.6-1.6 1.6-4.2 0-5.8s-4.2-1.6-5.8 0l-54 53.9c-1.6 1.6-1.6 4.2 0 5.8l54 53.9z" />
+                </svg>
+                <svg class="mc-play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42">
+                    <path
+                        d="M36.1 20.2l-29-20C6.8 0 6.4-0.1 6 0.1 5.7 0.3 5.5 0.6 5.5 1v40c0 0.4 0.2 0.7 0.5 0.9 0.1 0.1 0.3 0.1 0.5 0.1 0.2 0 0.4-0.1 0.6-0.2l29-20c0.3-0.2 0.4-0.5 0.4-0.8S36.3 20.4 36.1 20.2zM7.5 39.1V2.9l26.2 18.1L7.5 39.1z" />
+                </svg>
+            </div>
+        </div>
+        <div class="preloader-area">
+            <div class="preloader-folding-cube">
+                <div class="preloader-cube1 preloader-cube"></div>
+                <div class="preloader-cube2 preloader-cube"></div>
+                <div class="preloader-cube4 preloader-cube"></div>
+                <div class="preloader-cube3 preloader-cube"></div>
+            </div>
+        </div>
+        <div class="site-header light-color">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-auto">
+                        <div class="site-logo"><a href="../index.html">spark<span style="color: #65ba6e;">Berry</span>
+                            <!-- <img class="light"
+                                    src="../wp-content/uploads/2019/03/logo-light.png" alt="Luxa"><img class="dark"
+                                    src="../wp-content/uploads/2019/03/logo-dark.png" alt="Luxa"> -->
+                                </a>
+                                </div>
+                    </div>
+                    <div class="right col-auto">
+                        <nav class="navigation visible_menu">
+                            <ul id="menu-navigation" class="menu">
+                                <li id="menu-item-182"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-182">
+                                    <a href="#"><span>Home</span></a>
+                                 
+                                </li>
+                                <li id="menu-item-198"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-198">
+                                    <a href="./shop.html"><span>Shop</span></a>
+                                  
+                                </li>
+                                <li id="menu-item-720"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-720">
+                                    <a href="#"><span>Track Your Order </span></a>
+                                  
+                                </li>
+                               
+                                
+                                <li id="menu-item-202"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-202">
+                                    <a href="#"><span>Contacts</span></a>
+                                    
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="nav-butter visible_menu"><span></span><span></span><span></span></div>
+                        <div class="header-minicart woocommerce header-minicart-luxa">
+                            <a class="hm-count" href="../cart/index.html"><i
+                                    class="base-icon-shopping-cart"></i><span>1</span></a>
+                            <div class="minicart-wrap">
+
+
+                                <ul class="woocommerce-mini-cart cart_list product_list_widget ">
+                                    <li class="woocommerce-mini-cart-item mini_cart_item">
+                                        <div class="content">
+                                            <a href="./product.html">
+                                                <img width="300" height="300"
+                                                    src="./products/DSC_7432.jpg"
+                                                    class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
+                                                    alt="" /><span class="c"><span class="title">Wall Charger</span><span class="p-count">1
+                                                        &times; <span class="woocommerce-Price-amount amount"><span
+                                                                class="woocommerce-Price-currencySymbol">EGP</span>&nbsp;200</span></span></span>
+                                            </a>
+                                        </div>
+                                        <a href="../cart/index8689.html?remove_item=6aca97005c68f1206823815f66102863&amp;_wpnonce=5559f43bf0"
+                                            class="remove_from_cart_button essential-set-multiply"
+                                            aria-label="Remove this item" data-product_id="598"
+                                            data-cart_item_key="6aca97005c68f1206823815f66102863"
+                                            data-product_sku="woo-single"></a>
+                                    </li>
+                                </ul>
+
+                                <div class="bottom">
+                                    <p class="woocommerce-mini-cart__total total"><strong>Subtotal:</strong> <span
+                                            class="woocommerce-Price-amount amount"><span
+                                                class="woocommerce-Price-currencySymbol">EGP</span>&nbsp;200</span></p>
+
+
+                                    <p class="woocommerce-mini-cart__buttons buttons"><a href="../cart/index.html"
+                                            class="button wc-forward">View cart</a><a href="../checkout/index.html"
+                                            class="button checkout wc-forward">Checkout</a></p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="header-search-button"><i class="base-icon-magnifying-glass"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search-popup">
+            <div class="close essential-set-multiply"></div>
+            <div class="form-block">
+                <form role="search" method="get" class="searchform" action="">
+                    <div><input type="text" value="" placeholder="Type and hit enter" name="s" class="input" /></div>
+                    <button type="submit" class="searchsubmit" value=""><i
+                            class="base-icon-magnifying-glass"></i></button>
+                </form>
+            </div>
+        </div>
+
+        <div class="header-space"></div>
+        <main class="main-container">
+            <div class="container">
+
+                <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true"
+                    class="vc_row wpb_row vc_row-fluid vc_row- vc_row-no-padding">
+                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                        <div class="vc_column-inner " style="  ">
+                            <div class="wpb_wrapper">
+                                <section class="banner-area banner-area-5c923fec970e1 bsl-right">
+                                    <div class="mouse-button"></div>
+                                    <div class="banner-social-links">
+                                        <div class="social-links"><a href="#"><span>fb</span><span>Facebook</span></a><a
+                                                href="#"><span>tw</span><span>Twitter</span></a><a
+                                                href="#"><span>in</span><span>Instagram</span></a></div>
+                                    </div>
+                                    <div class="banner-slider">
+                                        <div class="banner-item banner-item-5c923f9d45a47 tar"
+                                            style="background-image: url(./products/DSC_7318.jpg);">
+
+                                            <div class="bg-overlay">
+                                            </div>
+
+                                            <div class="container">
+                                                <div class="row align-items-center full-height" style="">
+                                                    <div class="col">
+                                                        <div class="heading-block tar">
+                                                            <div class="sub-h">SparkBerry</div>
+                                                            <h2 class="h">Premium Quality <br> accessories<br />
+                                                                for our <span>Customers</span></h2>
+                                                        </div>
+                                                        <a class="button-style1" href="#" target="_self"><span
+                                                                class="d"><span></span></span><span>Shop Now !</span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="banner-item banner-item-5c923fd9352eb tal"
+                                            style="background-image: url(./products/DSC_7285.jpg);">
+
+                                            <div class="bg-overlay">
+                                            </div>
+
+                                            <div class="container">
+                                                <div class="row align-items-center full-height" style="">
+                                                    <div class="col">
+                                                        <div class="heading-block tal">
+                                                            <div class="sub-h">SparkBerry</div>
+                                                            <h2 class="h">We believe that our<br />
+                                                                work creates shared<br />
+                                                                value for <span>Customers</span></h2>
+                                                        </div>
+                                                        <a class="button-style1" href="./shop.html" target="_self"><span
+                                                                class="d"><span></span></span><span>Shop Now !</span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="banner-navigation on-right">
+                                        <div class="container">
+                                            <div class="wrap">
+                                                <div class="arrows"></div>
+                                                <div class="dots"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vc_row-full-width vc_clearfix"></div>
+                <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true"
+                    class="vc_row wpb_row vc_row-fluid vc_row- vc_row-no-padding">
+                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                        <div class="vc_column-inner " style="  ">
+                            <div class="wpb_wrapper">
+                                <div class="icon-box-carousel icon-box-carousel-5c9242f5a85be">
+                                    <div class="icon-box icon_box_carousel-item-5c9243c5ac320">
+                                        <div class="wrap">
+                                            <div class="bg"></div>
+                                            <div class="content">
+                                                <i class="web-design-graphic-tools"></i>
+                                                <div class="sub-h">SparkBerry</div>
+                                                <h5 class="h">Chargers</h5>
+                                            </div>
+                                            <div class="dropdown">
+                                                <div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, numquam!</div>
+                                                <a class="button-style3" href="#" target="_self"><span>to the
+                                                        category</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="icon-box icon_box_carousel-item-5c9244038676e">
+                                        <div class="wrap">
+                                            <div class="bg"></div>
+                                            <div class="content">
+                                                <i class="web-design-interface"></i>
+                                                <div class="sub-h">SparkBerry</div>
+                                                <h5 class="h">Cables</h5>
+                                            </div>
+                                            <div class="dropdown">
+                                                <div class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, exercitationem!</div>
+                                                <a class="button-style3" href="#" target="_self"><span>to the
+                                                        category</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="icon-box icon_box_carousel-item-5c924407cf6ab">
+                                        <div class="wrap">
+                                            <div class="bg"></div>
+                                            <div class="content">
+                                                <i class="web-design-idea"></i>
+                                                <div class="sub-h">SparkBerry</div>
+                                                <h5 class="h">Battaries</h5>
+                                            </div>
+                                            <div class="dropdown">
+                                                <div class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, exercitationem!</div>
+                                                <a class="button-style3" href="#" target="_self"><span>to the
+                                                        category</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="icon-box icon_box_carousel-item-5c92440a9e68e">
+                                        <div class="wrap">
+                                            <div class="bg"></div>
+                                            <div class="content">
+                                                <i class="web-design-plant"></i>
+                                                <div class="sub-h">SparkBerry</div>
+                                                <h5 class="h">Sale</h5>
+                                            </div>
+                                            <div class="dropdown">
+                                                <div class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, exercitationem!</div>
+                                                <a class="button-style3" href="#" target="_self"><span>to the
+                                                        category</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="icon-box icon_box_carousel-item-5c92440def5d2">
+                                        <div class="wrap">
+                                            <div class="bg"></div>
+                                            <div class="content">
+                                                <i class="web-design-font"></i>
+                                                <div class="sub-h">SparkBerry</div>
+                                                <h5 class="h">Coming Soon .. </h5>
+                                            </div>
+                                            <div class="dropdown">
+                                                <div class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, exercitationem!</div>
+                                                <a class="button-style3" href="#" target="_self"><span>to the
+                                                        category</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vc_row-full-width vc_clearfix"></div>
+                <div class="vc_row wpb_row vc_row-fluid vc_custom_1554720339802 vc_row-5cab264f17b80">
+                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                        <div class="vc_column-inner " style="  ">
+                            <div class="wpb_wrapper">
+                                <div class="heading-block heading-5c9326cc1f2c2 tac h-h3">
+                                    <div class="sub-h">our portfolio</div>
+                                    <h3 class="h">Our Products</h3>
+                                </div>
+                                <div class="portfolio-block portfolio-5c932a9eff2df">
+                                    <div class="filter-buttons tal">
+                                        <div class="wrap">
+                                            <button class="button current" data-filter="*">All</button>
+                                            <button class="button" data-filter=".category-branding">Chargers</button>
+                                            <button class="button" data-filter=".category-apps">Cables</button>
+                                            <button class="button" data-filter=".category-websites">Battaries</button>
+                                            <button class="button" data-filter=".category-social">LCD screens</button>
+                                        </div>
+                                    </div>
+                                    <div class=" portfolio-slider popup-gallery">
+                                        <div class="portfolio-slider-item  category-branding popup-item">
+                                            <div class="count">
+                                                <div class="c"></div>
+                                                <div class="t"></div>
+                                            </div>
+                                            <div class="image"
+                                                style="background-image: url(./products/DSC_7350.jpg)">
+                                                <a href="#" data-type="video"
+                                                    data-video='<div class="wrapper"><div class="video-wrapper"><iframe class="pswp__video" width="1920" height="1080" src="https://youtube.com/embed/1jWCXJfxHQM?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe></div></div>'
+                                                    data-size="1024x768" data-id="0"><span
+                                                        class="play-button on-center"><i
+                                                            class="essential-set-play-button"></i></span></a>
+                                            </div>
+                                            <div class="content">
+                                                <div class="arrows">
+                                                    <div class="owl-prev free-basic-ui-elements-left-arrow"></div>
+                                                    <div class="owl-next free-basic-ui-elements-right-arrow"></div>
+                                                </div>
+                                                <h3 class="h"><a href="#" data-type="video"
+                                                        data-video='<div class="wrapper"><div class="video-wrapper"><iframe class="pswp__video" width="1920" height="1080" src="https://youtube.com/embed/1jWCXJfxHQM?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe></div></div>'
+                                                        data-size="1024x768" data-id="0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, molestias!</a>
+                                                </h3>
+                                                <div class="categ"><i
+                                                        class="free-basic-ui-elements-tag"></i><span>Chargers</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="portfolio-slider-item  category-apps popup-item">
+                                            <div class="count">
+                                                <div class="c"></div>
+                                                <div class="t"></div>
+                                            </div>
+                                            <div class="image"
+                                                style="background-image: url(./products/DSC_7318.jpg)">
+                                            </div>
+                                            <div class="content">
+                                                <div class="arrows">
+                                                    <div class="owl-prev free-basic-ui-elements-left-arrow"></div>
+                                                    <div class="owl-next free-basic-ui-elements-right-arrow"></div>
+                                                </div>
+                                                <h3 class="h"><a href="./products/DSC_7318.jpg"
+                                                        data-size="1024x1024" data-id="1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, blanditiis.</a></h3>
+                                                <div class="categ"><i
+                                                        class="free-basic-ui-elements-tag"></i><span>Cables</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="portfolio-slider-item  category-branding popup-item">
+                                            <div class="count">
+                                                <div class="c"></div>
+                                                <div class="t"></div>
+                                            </div>
+                                            <div class="image"
+                                                style="background-image: url(./products/DSC_7406.jpg)">
+                                            </div>
+                                            <div class="content">
+                                                <div class="arrows">
+                                                    <div class="owl-prev free-basic-ui-elements-left-arrow"></div>
+                                                    <div class="owl-next free-basic-ui-elements-right-arrow"></div>
+                                                </div>
+                                                <h3 class="h"><a href="./products/DSC_7406.jpg"
+                                                        data-size="1024x682" data-id="2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, amet.</a></h3>
+                                                <div class="categ"><i
+                                                        class="free-basic-ui-elements-tag"></i><span>Chargers</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="portfolio-slider-item  category-branding popup-item">
+                                            <div class="count">
+                                                <div class="c"></div>
+                                                <div class="t"></div>
+                                            </div>
+                                            <div class="image"
+                                                style="background-image: url(./products/DSC_7353.jpg)">
+                                            </div>
+                                            <div class="content">
+                                                <div class="arrows">
+                                                    <div class="owl-prev free-basic-ui-elements-left-arrow"></div>
+                                                    <div class="owl-next free-basic-ui-elements-right-arrow"></div>
+                                                </div>
+                                                <h3 class="h"><a href="./products/DSC_7353.jpg"
+                                                        data-size="1024x576" data-id="3">Charger</a></h3>
+                                                <div class="categ"><i
+                                                        class="free-basic-ui-elements-tag"></i><span>Chargers</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="portfolio-slider-item  category-branding popup-item">
+                                            <div class="count">
+                                                <div class="c"></div>
+                                                <div class="t"></div>
+                                            </div>
+                                            <div class="image"
+                                                style="background-image: url(./products/DSC_7285.jpg)">
+                                            </div>
+                                            <div class="content">
+                                                <div class="arrows">
+                                                    <div class="owl-prev free-basic-ui-elements-left-arrow"></div>
+                                                    <div class="owl-next free-basic-ui-elements-right-arrow"></div>
+                                                </div>
+                                                <h3 class="h"><a href="./products/DSC_7285.jpg"
+                                                        data-size="1024x764" data-id="4">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</a></h3>
+                                                <div class="categ"><i
+                                                        class="free-basic-ui-elements-tag"></i><span>Chargers</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="portfolio-slider-item  category-branding category-websites popup-item">
+                                            <div class="count">
+                                                <div class="c"></div>
+                                                <div class="t"></div>
+                                            </div>
+                                            <div class="image"
+                                                style="background-image: url(./products/DSC_7300.jpg)">
+                                            </div>
+                                            <div class="content">
+                                                <div class="arrows">
+                                                    <div class="owl-prev free-basic-ui-elements-left-arrow"></div>
+                                                    <div class="owl-next free-basic-ui-elements-right-arrow"></div>
+                                                </div>
+                                                <h3 class="h"><a href="./products/DSC_7300.jpg"
+                                                        data-size="1001x1002" data-id="5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos natus rem illo?</a></h3>
+                                                <div class="categ"><i
+                                                        class="free-basic-ui-elements-tag"></i><span>Battaries</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="portfolio-slider-item  category-apps category-social popup-item">
+                                            <div class="count">
+                                                <div class="c"></div>
+                                                <div class="t"></div>
+                                            </div>
+                                            <div class="image"
+                                                style="background-image: url(./products/DSC_7301.jpg)">
+                                            </div>
+                                            <div class="content">
+                                                <div class="arrows">
+                                                    <div class="owl-prev free-basic-ui-elements-left-arrow"></div>
+                                                    <div class="owl-next free-basic-ui-elements-right-arrow"></div>
+                                                </div>
+                                                <h3 class="h"><a
+                                                        href="./products/DSC_7301.jpg"
+                                                        data-size="1024x1024" data-id="6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur nulla esse aut.</a></h3>
+                                                <div class="categ"><i class="free-basic-ui-elements-tag"></i><span>LCD screens </span></div>
+                                            </div>
+                                        </div>
+                                        <div class="portfolio-slider-item  category-apps category-websites popup-item">
+                                            <div class="count">
+                                                <div class="c"></div>
+                                                <div class="t"></div>
+                                            </div>
+                                            <div class="image"
+                                                style="background-image: url(./products/DSC_7372.jpg)">
+                                            </div>
+                                            <div class="content">
+                                                <div class="arrows">
+                                                    <div class="owl-prev free-basic-ui-elements-left-arrow"></div>
+                                                    <div class="owl-next free-basic-ui-elements-right-arrow"></div>
+                                                </div>
+                                                <h3 class="h"><a
+                                                        href="./products/DSC_7372.jpg"
+                                                        data-size="1024x1022" data-id="7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, architecto?</a></h3>
+                                                <div class="categ"><i class="free-basic-ui-elements-tag"></i><span>Battaries</span></div>
+                                            </div>
+                                        </div>
+                                       
+                                    </div>
+                                    <div class="cache-items"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vc_row wpb_row vc_row-fluid vc_custom_1554720339802 vc_row-5cab264f17b80">
+                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                        <div class="vc_column-inner " style="  ">
+                            <div class="wpb_wrapper">
+                                <div class="heading-block heading-5c9326cc1f2c2 tac h-h3">
+                                    <div class="sub-h">SparkBerry</div>
+                                    <h3 class="h">Shop Our Products </h3>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 woocommerce">
+                                      <ul class="products row">
+                                        <li class="col-12 col-sm-4 product type-product post-597 status-publish first instock product_cat-social has-post-thumbnail sale downloadable virtual purchasable product-type-simple">
+                                          <div class="product-wrap">
+                                            <div class="image"><span class="onsale">Sale</span>
+                                              <div class="buttons"><a rel="nofollow" href="index5161.html?add-to-cart=597" data-quantity="1"
+                                                  data-product_id="597" data-product_sku="woo-album"
+                                                  class="product-button product_type_simple add_to_cart_button ajax_add_to_cart"><i
+                                                    class="base-icon-shopping-cart"></i><span>Add to cart</span></a></div>
+                                                    <a
+                                                href="./product.html" class="img"><img
+                                                  width="300" height="300" src="./products/DSC_7406.jpg"
+                                                  class="attachment-shop_catalog size-shop_catalog wp-post-image" alt=""
+                                                  srcset="./products/DSC_7406.jpg"
+                                                  sizes="(max-width: 300px) 100vw, 300px" /></a>
+                                            </div>
+                                            <div class="bottom">
+                                              <div class="categories"><a href="../product-category/social/index.html" rel="tag">Chargers</a></div>
+                                              <h6 class="h"><a
+                                                  href="./product.html">Wall Charger 10w</a></h6>
+                                              <div class="price simple"><del><span class="woocommerce-Price-amount amount"><span
+                                                      class="woocommerce-Price-currencySymbol">EGP</span>&nbsp;150</span></del> <ins><span
+                                                    class="woocommerce-Price-amount amount"><span
+                                                      class="woocommerce-Price-currencySymbol">EGP</span>&nbsp;100</span></ins></div>
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li
+                                          class="col-12 col-sm-4 product type-product post-598 status-publish last instock product_cat-social has-post-thumbnail sale downloadable virtual purchasable product-type-simple">
+                                          <div class="product-wrap">
+                                            <div class="image"><span class="onsale">Sale</span>
+                                              <div class="buttons"><a rel="nofollow" href="index1c2d.html?add-to-cart=598" data-quantity="1"
+                                                  data-product_id="598" data-product_sku="woo-single"
+                                                  class="product-button product_type_simple add_to_cart_button ajax_add_to_cart"><i
+                                                    class="base-icon-shopping-cart"></i><span>Add to cart</span></a></div><a
+                                                href="./product.html" class="img"><img width="300" height="300"
+                                                  src="./products/DSC_7409.jpg"
+                                                  class="attachment-shop_catalog size-shop_catalog wp-post-image" alt=""
+                                                  srcset="./products/DSC_7409.jpg"
+                                                  sizes="(max-width: 300px) 100vw, 300px" /></a>
+                                            </div>
+                                            <div class="bottom">
+                                              <div class="categories"><a href="../product-category/social/index.html" rel="tag">Chargers</a></div>
+                                              <h6 class="h"><a href="./product.html">One USB Port QC3.0 Quick Charger 18 W Output smart usb charge</a></h6>
+                                              <div class="price simple"><del><span class="woocommerce-Price-amount amount"><span
+                                                      class="woocommerce-Price-currencySymbol">EGP</span>&nbsp;300</span></del> <ins><span
+                                                    class="woocommerce-Price-amount amount"><span
+                                                      class="woocommerce-Price-currencySymbol">EGP</span>&nbsp;200</span></ins></div>
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li
+                                          class="col-12 col-sm-4 product type-product post-608 status-publish first instock product_cat-branding has-post-thumbnail shipping-taxable product-type-external">
+                                          <div class="product-wrap">
+                                            <div class="image">
+                                                <div class="buttons"><a rel="nofollow" href="index5161.html?add-to-cart=597" data-quantity="1"
+                                                    data-product_id="597" data-product_sku="woo-album"
+                                                    class="product-button product_type_simple add_to_cart_button ajax_add_to_cart"><i
+                                                      class="base-icon-shopping-cart"></i><span>Add to cart</span></a></div><a
+                                                href="./product.html" class="img"><img width="300"
+                                                  height="300" src="./products/DSC_7464.jpg"
+                                                  class="attachment-shop_catalog size-shop_catalog wp-post-image" alt=""
+                                                  srcset=" ./products/DSC_7464.jpg 300w, ./products/DSC_7464.jpg 150w, ./products/DSC_7464.jpg 768w, https://promo-theme.com/luxa/wp-content/uploads/2019/03/img15-300x300@2x.jpg 600w, https://promo-theme.com/luxa/wp-content/uploads/2019/03/img15-100x100.jpg 100w, https://promo-theme.com/luxa/wp-content/uploads/2019/03/img15.jpg 1001w, https://promo-theme.com/luxa/wp-content/uploads/2019/03/img15-100x100@2x.jpg 200w"
+                                                  sizes="(max-width: 300px) 100vw, 300px" /></a>
+                                            </div>
+                                            <div class="bottom">
+                                              <div class="categories"><a href="../product-category/branding/index.html" rel="tag">Cables</a>
+                                              </div>
+                                              <h6 class="h"><a href="./product.html">Micro to USB Charging cable 3A (TPE) cable jacket</a></h6>
+                                              <div class="price external"><span class="woocommerce-Price-amount amount"><span
+                                                    class="woocommerce-Price-currencySymbol">EGP</span>&nbsp;110</span></div>
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li
+                                          class="col-12 col-sm-4 product type-product post-607 status-publish last instock product_cat-social has-post-thumbnail sale shipping-taxable product-type-grouped">
+                                          <div class="product-wrap">
+                                            <div class="image"><span class="onsale">Sale</span>
+                                                <div class="buttons"><a rel="nofollow" href="index5161.html?add-to-cart=597" data-quantity="1"
+                                                    data-product_id="597" data-product_sku="woo-album"
+                                                    class="product-button product_type_simple add_to_cart_button ajax_add_to_cart"><i
+                                                      class="base-icon-shopping-cart"></i><span>Add to cart</span></a></div>
+                                                      <a href="./product.html"
+                                                class="img"><img width="300" height="300" src="./products/DSC_7563.jpg"
+                                                  class="attachment-shop_catalog size-shop_catalog wp-post-image" alt=""
+                                                  srcset="./products/DSC_7563.jpg 300w, "
+                                                  sizes="(max-width: 300px) 100vw, 300px" /></a>
+                                            </div>
+                                            <div class="bottom">
+                                              <div class="categories"><a href="../product-category/social/index.html" rel="tag">Battaries</a></div>
+                                              <h6 class="h"><a href="./product.html">iphone 5s battary</a></h6>
+                                              <div class="price simple"><del><span class="woocommerce-Price-amount amount"><span
+                                                class="woocommerce-Price-currencySymbol">EGP</span>&nbsp;150</span></del> <ins><span
+                                              class="woocommerce-Price-amount amount"><span
+                                                class="woocommerce-Price-currencySymbol">EGP</span>&nbsp;100</span></ins></div>
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li
+                                          class="col-12 col-sm-4 product type-product post-607 status-publish last instock product_cat-social has-post-thumbnail sale shipping-taxable product-type-grouped">
+                                          <div class="product-wrap">
+                                            <div class="image"><span class="onsale">Sale</span>
+                                                <div class="buttons"><a rel="nofollow" href="index5161.html?add-to-cart=597" data-quantity="1"
+                                                    data-product_id="597" data-product_sku="woo-album"
+                                                    class="product-button product_type_simple add_to_cart_button ajax_add_to_cart"><i
+                                                      class="base-icon-shopping-cart"></i><span>Add to cart</span></a></div>
+                                                      <a href="./product.html"
+                                                class="img"><img width="300" height="300" src="./products/DSC_7468.jpg"
+                                                  class="attachment-shop_catalog size-shop_catalog wp-post-image" alt=""
+                                                  srcset="./products/DSC_7468.jpg 300w, "
+                                                  sizes="(max-width: 300px) 100vw, 300px" /></a>
+                                            </div>
+                                            <div class="bottom">
+                                              <div class="categories"><a href="../product-category/social/index.html" rel="tag">Cables</a></div>
+                                              <h6 class="h"><a href="./product.html">Usb type-c cable </a></h6>
+                                              <div class="price simple"><del><span class="woocommerce-Price-amount amount"><span
+                                                class="woocommerce-Price-currencySymbol">EGP</span>&nbsp;150</span></del> <ins><span
+                                              class="woocommerce-Price-amount amount"><span
+                                                class="woocommerce-Price-currencySymbol">EGP</span>&nbsp;100</span></ins></div>
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li
+                                          class="col-12 col-sm-4 product type-product post-607 status-publish last instock product_cat-social has-post-thumbnail sale shipping-taxable product-type-grouped">
+                                          <div class="product-wrap">
+                                            <div class="image"><span class="onsale">Sale</span>
+                                                <div class="buttons"><a rel="nofollow" href="index5161.html?add-to-cart=597" data-quantity="1"
+                                                    data-product_id="597" data-product_sku="woo-album"
+                                                    class="product-button product_type_simple add_to_cart_button ajax_add_to_cart"><i
+                                                      class="base-icon-shopping-cart"></i><span>Add to cart</span></a></div>
+                                                      <a href="./product.html"
+                                                class="img"><img width="300" height="300" src="./products/DSC_7464.jpg"
+                                                  class="attachment-shop_catalog size-shop_catalog wp-post-image" alt=""
+                                                  srcset="./products/DSC_7464.jpg 300w, "
+                                                  sizes="(max-width: 300px) 100vw, 300px" /></a>
+                                            </div>
+                                            <div class="bottom">
+                                              <div class="categories"><a href="../product-category/social/index.html" rel="tag">Cables</a></div>
+                                              <h6 class="h"><a href="./product.html">Usb type-c cable </a></h6>
+                                              <div class="price simple"><del><span class="woocommerce-Price-amount amount"><span
+                                                class="woocommerce-Price-currencySymbol">EGP</span>&nbsp;150</span></del> <ins><span
+                                              class="woocommerce-Price-amount amount"><span
+                                                class="woocommerce-Price-currencySymbol">EGP</span>&nbsp;100</span></ins></div>
+                                            </div>
+                                          </div>
+                                        </li>
+                                      
+                                      </ul>
+
+                                    </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vc_row-full-width vc_clearfix"></div>
+                
+                <div data-vc-full-width="true" data-vc-full-width-init="false"
+                    class="vc_row wpb_row vc_row-fluid vc_custom_1553076296472 vc_row- vc_row-has-fill">
+                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                        <div class="vc_column-inner " style="  ">
+                            <div class="wpb_wrapper">
+                                <div class="num-box-items num-box-5c91ed9126cc3 row no-gutters">
+                                    <div class="num-box-item num-box-item-5c91e1c4c5adb  col-lg-4 col-md-6 col-12">
+                                        <i class="interview-hiring"></i>
+                                        <div class="line"></div>
+                                        <div class="content">
+                                            <div class="num">30</div>
+                                            <h6 class="h">Products</h6>
+                                        </div>
+                                    </div>
+                                    <div class="num-box-item num-box-item-5c91e1e58e473  col-lg-4 col-md-6 col-12">
+                                        <i class="interview-handshake"></i>
+                                        <div class="line"></div>
+                                        <div class="content">
+                                            <div class="num">2</div>
+                                            <h6 class="h">Years Warrenty</h6>
+                                        </div>
+                                    </div>
+                                    <div class="num-box-item num-box-item-5c91e1f330db2  col-lg-4 col-md-6 col-12">
+                                        <i class="interview-interview-3"></i>
+                                        <div class="line"></div>
+                                        <div class="content">
+                                            <div class="num">320</div>
+                                            <h6 class="h">Satisfied Customers</h6>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="num-box-item num-box-item-5c91e208be426  col-lg-3 col-md-6 col-12">
+                                        <i class="web-design-object"></i>
+                                        <div class="line"></div>
+                                        <div class="content">
+                                            <div class="num"></div>
+                                            <h6 class="h">Designed Brands</h6>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vc_row-full-width vc_clearfix"></div>
+                <div class="vc_row wpb_row vc_row-fluid vc_custom_1553174725991 vc_row-">
+                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                        <div class="vc_column-inner " style="  ">
+                            <div class="wpb_wrapper">
+                                <div class="vertical-tabs vertical-tabs-5c9381c4295a1 ">
+                                    <div class="tabs-items">
+                                        <div class="tab-item">
+                                            <div class="tab-m-button">
+                                                <div class="num">01</div>
+                                                <div class="label">About Us</div>
+                                            </div>
+                                            <div class="inner" style="display: block;">
+                                                <div class="inner-content">
+                                                    <div class="image"
+                                                        style="background-image: url(./products/DSC_7301.jpg);">
+                                                    </div>
+                                                    <div class="content">
+                                                        <div class="heading-block">
+                                                            <div class="sub-h">About Us</div>
+                                                            <h2 class="h">
+                                                                <em class="num">01</em>
+                                                                Who We Are </h2>
+                                                        </div>
+                                                        <div class="text">Cras hendrerit elementum nibh, a faucibus
+                                                            sapien accumsan quis. Nulla
+                                                            ullamcorper, magna quis faucibus volutpat, mi mauris posuere
+                                                            nunc, sed elementum ante
+                                                            tortor id magna. Suspendisse ullamcorper dui ut molestie
+                                                            malesuada. Mauris in lectus ut
+                                                            ante laoreet vehicula a non sapien. Quisque eu iaculis
+                                                            magna. Mauris eu velit quis massa
+                                                            consequat accumsan et id lorem.</div>
+                                                        <a class="button-style2" href="#" target="_self"><span>read
+                                                                more</span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-item">
+                                            <div class="tab-m-button">
+                                                <div class="num">02</div>
+                                                <div class="label">Insights</div>
+                                            </div>
+                                            <div class="inner">
+                                                <div class="inner-content">
+                                                    <div class="image"
+                                                        style="background-image: url(./products/DSC_7301.jpg);">
+                                                    </div>
+                                                    <div class="content">
+                                                        <div class="heading-block">
+                                                            <div class="sub-h">Insights</div>
+                                                            <h2 class="h">
+                                                                <em class="num">02</em>
+                                                                Who We Are </h2>
+                                                        </div>
+                                                        <div class="text">Cras hendrerit elementum nibh, a faucibus
+                                                            sapien accumsan quis. Nulla
+                                                            ullamcorper, magna quis faucibus volutpat, mi mauris posuere
+                                                            nunc, sed elementum ante
+                                                            tortor id magna. Suspendisse ullamcorper dui ut molestie
+                                                            malesuada. Mauris in lectus ut
+                                                            ante laoreet vehicula a non sapien. Quisque eu iaculis
+                                                            magna. Mauris eu velit quis massa
+                                                            consequat accumsan et id lorem.</div>
+                                                        <a class="button-style2" href="#" target="_self"><span>read
+                                                                more</span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-item">
+                                            <div class="tab-m-button">
+                                                <div class="num">03</div>
+                                                <div class="label">News and Media</div>
+                                            </div>
+                                            <div class="inner">
+                                                <div class="inner-content">
+                                                    <div class="image"
+                                                        style="background-image: url(./products/DSC_7301.jpg);">
+                                                    </div>
+                                                    <div class="content">
+                                                        <div class="heading-block">
+                                                            <div class="sub-h">News and Media</div>
+                                                            <h2 class="h">
+                                                                <em class="num">03</em>
+                                                                Who We Are </h2>
+                                                        </div>
+                                                        <div class="text">Cras hendrerit elementum nibh, a faucibus
+                                                            sapien accumsan quis. Nulla
+                                                            ullamcorper, magna quis faucibus volutpat, mi mauris posuere
+                                                            nunc, sed elementum ante
+                                                            tortor id magna. Suspendisse ullamcorper dui ut molestie
+                                                            malesuada. Mauris in lectus ut
+                                                            ante laoreet vehicula a non sapien. Quisque eu iaculis
+                                                            magna. Mauris eu velit quis massa
+                                                            consequat accumsan et id lorem.</div>
+                                                        <a class="button-style2" href="#" target="_self"><span>read
+                                                                more</span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-item">
+                                            <div class="tab-m-button">
+                                                <div class="num">04</div>
+                                                <div class="label">Our Group</div>
+                                            </div>
+                                            <div class="inner">
+                                                <div class="inner-content">
+                                                    <div class="image"
+                                                        style="background-image: url(./products/DSC_7301.jpg);">
+                                                    </div>
+                                                    <div class="content">
+                                                        <div class="heading-block">
+                                                            <div class="sub-h">Our Group</div>
+                                                            <h2 class="h">
+                                                                <em class="num">04</em>
+                                                                Who We Are </h2>
+                                                        </div>
+                                                        <div class="text">Cras hendrerit elementum nibh, a faucibus
+                                                            sapien accumsan quis. Nulla
+                                                            ullamcorper, magna quis faucibus volutpat, mi mauris posuere
+                                                            nunc, sed elementum ante
+                                                            tortor id magna. Suspendisse ullamcorper dui ut molestie
+                                                            malesuada. Mauris in lectus ut
+                                                            ante laoreet vehicula a non sapien. Quisque eu iaculis
+                                                            magna. Mauris eu velit quis massa
+                                                            consequat accumsan et id lorem.</div>
+                                                        <a class="button-style2" href="#" target="_self"><span>read
+                                                                more</span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-item">
+                                            <div class="tab-m-button">
+                                                <div class="num">05</div>
+                                                <div class="label">Opportunity</div>
+                                            </div>
+                                            <div class="inner">
+                                                <div class="inner-content">
+                                                    <div class="image"
+                                                        style="background-image: url(./products/DSC_7301.jpg);">
+                                                    </div>
+                                                    <div class="content">
+                                                        <div class="heading-block">
+                                                            <div class="sub-h">Opportunity</div>
+                                                            <h2 class="h">
+                                                                <em class="num">05</em>
+                                                                Who We Are </h2>
+                                                        </div>
+                                                        <div class="text">Cras hendrerit elementum nibh, a faucibus
+                                                            sapien accumsan quis. Nulla
+                                                            ullamcorper, magna quis faucibus volutpat, mi mauris posuere
+                                                            nunc, sed elementum ante
+                                                            tortor id magna. Suspendisse ullamcorper dui ut molestie
+                                                            malesuada. Mauris in lectus ut
+                                                            ante laoreet vehicula a non sapien. Quisque eu iaculis
+                                                            magna. Mauris eu velit quis massa
+                                                            consequat accumsan et id lorem.</div>
+                                                        <a class="button-style2" href="#" target="_self"><span>read
+                                                                more</span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-item">
+                                            <div class="tab-m-button">
+                                                <div class="num">06</div>
+                                                <div class="label">Location Facts</div>
+                                            </div>
+                                            <div class="inner">
+                                                <div class="inner-content">
+                                                    <div class="image"
+                                                        style="background-image: url(./products/DSC_7301.jpg);">
+                                                    </div>
+                                                    <div class="content">
+                                                        <div class="heading-block">
+                                                            <div class="sub-h">Location Facts</div>
+                                                            <h2 class="h">
+                                                                <em class="num">06</em>
+                                                                Who We Are </h2>
+                                                        </div>
+                                                        <div class="text">Cras hendrerit elementum nibh, a faucibus
+                                                            sapien accumsan quis. Nulla
+                                                            ullamcorper, magna quis faucibus volutpat, mi mauris posuere
+                                                            nunc, sed elementum ante
+                                                            tortor id magna. Suspendisse ullamcorper dui ut molestie
+                                                            malesuada. Mauris in lectus ut
+                                                            ante laoreet vehicula a non sapien. Quisque eu iaculis
+                                                            magna. Mauris eu velit quis massa
+                                                            consequat accumsan et id lorem.</div>
+                                                        <a class="button-style2" href="#" target="_self"><span>read
+                                                                more</span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <ul class="tabs-buttons">
+                                        <li class="current">
+                                            <div class="num">01</div>
+                                            <div class="label">About Us</div>
+                                        </li>
+                                        <li>
+                                            <div class="num">02</div>
+                                            <div class="label">Insights</div>
+                                        </li>
+                                        <li>
+                                            <div class="num">03</div>
+                                            <div class="label">News and Media</div>
+                                        </li>
+                                        <li>
+                                            <div class="num">04</div>
+                                            <div class="label">Our Group</div>
+                                        </li>
+                                        <li>
+                                            <div class="num">05</div>
+                                            <div class="label">Opportunity</div>
+                                        </li>
+                                        <li>
+                                            <div class="num">06</div>
+                                            <div class="label">Location Facts</div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true"
+                    class="vc_row wpb_row vc_row-fluid vc_custom_1553174306180 vc_row- vc_row-has-fill vc_row-no-padding">
+                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                        <div class="vc_column-inner vc_custom_1553174747608" style="  ">
+                            <div class="wpb_wrapper">
+                                <div class="heading-block heading-5c938e92cc7c9 tac h-h3 vc_custom_1553174332094">
+                                    <div class="sub-h">SparkBerry</div>
+                                    <h3 class="h">Product Gallery</h3>
+                                </div>
+                                <div class="team-carousel team-carousel-5c938618203d9">
+                                    <div class="team-item team-item-5c938b50403ec">
+                                        <div class="image"
+                                            style="background-image: url(./products/DSC_7475.jpg);">
+                                            <div class="social-links"><a href="#"><i
+                                                        class="fab fa-facebook-f"></i></a><a href="#"><i
+                                                        class="fab fa-instagram"></i></a><a href="#"><i
+                                                        class="fab fa-twitter"></i></a></div>
+                                        </div>
+                                        <!-- <div class="bottom">
+                                            <div class="name">Sophia Brown</div>
+                                            <div class="post">designer</div>
+                                        </div> -->
+                                    </div>
+                                    <div class="team-item team-item-5c938b50403ec">
+                                        <div class="image"
+                                            style="background-image: url(./products/DSC_7301.jpg);">
+                                            <div class="social-links"><a href="#"><i
+                                                        class="fab fa-facebook-f"></i></a><a href="#"><i
+                                                        class="fab fa-instagram"></i></a><a href="#"><i
+                                                        class="fab fa-twitter"></i></a></div>
+                                        </div>
+                                        <!-- <div class="bottom">
+                                            <div class="name">Sophia Brown</div>
+                                            <div class="post">designer</div>
+                                        </div> -->
+                                    </div>
+                                    <div class="team-item team-item-5c938b50403ec">
+                                        <div class="image"
+                                            style="background-image: url(./products/DSC_7409.jpg);">
+                                            <div class="social-links"><a href="#"><i
+                                                        class="fab fa-facebook-f"></i></a><a href="#"><i
+                                                        class="fab fa-instagram"></i></a><a href="#"><i
+                                                        class="fab fa-twitter"></i></a></div>
+                                        </div>
+                                        <!-- <div class="bottom">
+                                            <div class="name">Sophia Brown</div>
+                                            <div class="post">designer</div>
+                                        </div> -->
+                                    </div>
+                                    <div class="team-item team-item-5c938b50403ec">
+                                        <div class="image"
+                                            style="background-image: url(./products/DSC_7285.jpg);">
+                                            <div class="social-links"><a href="#"><i
+                                                        class="fab fa-facebook-f"></i></a><a href="#"><i
+                                                        class="fab fa-instagram"></i></a><a href="#"><i
+                                                        class="fab fa-twitter"></i></a></div>
+                                        </div>
+                                        <!-- <div class="bottom">
+                                            <div class="name">Sophia Brown</div>
+                                            <div class="post">designer</div>
+                                        </div> -->
+                                    </div>
+                                    <div class="team-item team-item-5c938b50403ec">
+                                        <div class="image"
+                                            style="background-image: url(./products/DSC_7300.jpg);">
+                                            <div class="social-links"><a href="#"><i
+                                                        class="fab fa-facebook-f"></i></a><a href="#"><i
+                                                        class="fab fa-instagram"></i></a><a href="#"><i
+                                                        class="fab fa-twitter"></i></a></div>
+                                        </div>
+                                        <!-- <div class="bottom">
+                                            <div class="name">Sophia Brown</div>
+                                            <div class="post">designer</div>
+                                        </div> -->
+                                    </div>
+                                    <div class="team-item team-item-5c938b50403ec">
+                                        <div class="image"
+                                            style="background-image: url(./products/DSC_7315.jpg);">
+                                            <div class="social-links"><a href="#"><i
+                                                        class="fab fa-facebook-f"></i></a><a href="#"><i
+                                                        class="fab fa-instagram"></i></a><a href="#"><i
+                                                        class="fab fa-twitter"></i></a></div>
+                                        </div>
+                                        <!-- <div class="bottom">
+                                            <div class="name">Sophia Brown</div>
+                                            <div class="post">designer</div>
+                                        </div> -->
+                                    </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vc_row-full-width vc_clearfix"></div>
+
+            </div>
+        </main>
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="site-logo"><a href="./index.html">
+                                spark<span style="color: #65ba6e;">Berry</span>  Store
+                                <!-- <img class="light"
+                                    src="../wp-content/uploads/2019/03/logo-light.png" alt="Luxa"><img class="dark"
+                                    src="../wp-content/uploads/2019/03/logo-dark.png" alt="Luxa"> -->
+                                </a>
+                        </div>
+                        <div id="black-studio-tinymce-2" class="widget widget_black_studio_tinymce">
+                            <div class="textwidget">
+                                <p
+                                    style="margin-top: 0; font-size: 14px; line-height: 24px; max-width: 255px; color: #cacaca;">
+                                    Aliquam
+                                    ornare velit non ligula dignissim auctor. Nunc pharetra consectetur aliquet. Orci
+                                    varius natoque
+                                    penatibus et magnis dis parturient montes.</p>
+                            </div>
+                        </div>
+                        <div class="copyright">© 2020 Luxa, Developed by Promo Themes</div>
+                    </div>
+                    <div class="col-6 col-sm-3 col-lg-2">
+                        <div id="nav_menu-2" class="widget widget_nav_menu">
+                            <h6 class="widget-title">Links</h6>
+                            <div class="menu-footer-links-1-container">
+                                <ul id="menu-footer-links-1" class="menu">
+                                    <li id="menu-item-415"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-415">
+                                        <a href="https://promo-theme.com/404-page">404 Page</a></li>
+                                    <li id="menu-item-697"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-697">
+                                        <a href="../about-me/index.html">About Me</a></li>
+                                    <li id="menu-item-417"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-417">
+                                        <a href="../about-us/index.html">About Us</a></li>
+                                    <li id="menu-item-418"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-418">
+                                        <a href="../coming-soon/index.html">Coming Soon</a></li>
+                                    <li id="menu-item-419"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-419">
+                                        <a href="../services/index.html">Services</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-3 col-lg-2">
+                        <div id="nav_menu-3" class="widget widget_nav_menu">
+                            <h6 class="widget-title">&nbsp;</h6>
+                            <div class="menu-footer-links-2-container">
+                                <ul id="menu-footer-links-2" class="menu">
+                                    <li id="menu-item-420"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-420">
+                                        <a href="../shop/index.html">Product List</a></li>
+                                    <li id="menu-item-421"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-421">
+                                        <a href="../contacts/index.html">Contacts</a></li>
+                                    <li id="menu-item-423"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-423">
+                                        <a href="../my-account/index.html">My account</a></li>
+                                    <li id="menu-item-422"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-422">
+                                        <a href="../checkout/index.html">Checkout</a></li>
+                                    <li id="menu-item-424"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-424">
+                                        <a href="../cart/index.html">Cart</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div id="custom_html-2" class="widget_text widget widget_custom_html">
+                            <h6 class="widget-title">Contacts</h6>
+                            <div class="textwidget custom-html-widget">
+                                <div class="contact-row"><i class="base-icon-phone-call"></i><span>+1
+                                        623-812-4957</span></div>
+                                <div class="contact-row"><i
+                                        class="base-icon-envelope"></i><span>support@promo-theme.com</span></div>
+                                <div class="contact-row"><i class="base-icon-placeholder"></i><span>5022 Baker Street
+                                        London
+                                        10013</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        var c = document.body.className;
+        c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+        document.body.className = c;
+    </script>
+    <link rel='stylesheet' id='owl-carousel-css'
+        href='../wp-content/plugins/pt-luxa-addons/assets/css/owl.carousel531b.css?ver=2.3.4' media='all' />
+    <script>
+        /* <![CDATA[ */
+        var wpcf7 = {
+            "apiSettings": {
+                "root": "https:\/\/promo-theme.com\/luxa\/wp-json\/contact-form-7\/v1",
+                "namespace": "contact-form-7\/v1"
+            },
+            "cached": "1"
+        };
+        /* ]]> */
+    </script>
+    <script src='../wp-content/plugins/contact-form-7/includes/js/scripts38c6.js?ver=5.1.9'></script>
+    <script src='../wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min6b25.js?ver=2.1.4'></script>
+    <script>
+        /* <![CDATA[ */
+        var woocommerce_params = {
+            "ajax_url": "\/luxa\/wp-admin\/admin-ajax.php",
+            "wc_ajax_url": "\/luxa\/?wc-ajax=%%endpoint%%"
+        };
+        /* ]]> */
+    </script>
+    <script src='../wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min9e95.js?ver=3.8.0'></script>
+    <script>
+        /* <![CDATA[ */
+        var wc_cart_fragments_params = {
+            "ajax_url": "\/luxa\/wp-admin\/admin-ajax.php",
+            "wc_ajax_url": "\/luxa\/?wc-ajax=%%endpoint%%",
+            "cart_hash_key": "wc_cart_hash_0b22aad90e48dcbe6ac323f5cdf1f847",
+            "fragment_name": "wc_fragments_0b22aad90e48dcbe6ac323f5cdf1f847",
+            "request_timeout": "5000"
+        };
+        /* ]]> */
+    </script>
+    <script src='../wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min9e95.js?ver=3.8.0'></script>
+    <script src='../wp-content/plugins/pt-luxa-addons/assets/js/parallax.min.js'></script>
+    <script src='../wp-content/plugins/pt-luxa-addons/assets/js/photoswipe.min0235.js?ver=4.1.1'></script>
+    <script src='../wp-content/plugins/pt-luxa-addons/assets/js/photoswipe-ui-default.min0235.js?ver=4.1.1'></script>
+    <script src='../wp-includes/js/imagesloaded.min55a0.js?ver=3.2.0'></script>
+    <script src='../wp-content/plugins/pt-luxa-addons/assets/js/isotope.pkgd.min7c45.js?ver=3.0.6'></script>
+    <script src='../wp-content/plugins/pt-luxa-addons/assets/js/load-posts.js'></script>
+    <script src='../wp-content/plugins/pt-luxa-addons/assets/js/owl.carousel.min531b.js?ver=2.3.4'></script>
+    <script src='../wp-content/plugins/js_composer/assets/lib/vc_waypoints/vc-waypoints.min52c7.js?ver=6.0.5'></script>
+    <script>
+        /* <![CDATA[ */
+        var yprm_ajax = {
+            "url": "https:\/\/promo-theme.com\/luxa\/wp-admin\/admin-ajax.php"
+        };
+        /* ]]> */
+    </script>
+    <script src='../wp-content/plugins/pt-luxa-addons/assets/js/pt-scripts8a54.js?ver=1.0.0'></script>
+    <script>
+        jQuery(document).ready(function (jQuery) {
+            if (jQuery('.banner-area-5c923fec970e1 .banner-slider').find('.banner-item').length > 1) {
+                var $this = jQuery('.banner-area-5c923fec970e1 .banner-slider');
+                $this.addClass('owl-carousel').owlCarousel({
+                    loop: true,
+                    items: 1,
+                    nav: true,
+                    dots: true,
+
+                    navContainer: $this.parent().find('.banner-navigation .arrows'),
+                    dotsContainer: $this.parent().find('.banner-navigation .dots'),
+                    navClass: ['owl-prev free-basic-ui-elements-left-arrow',
+                        'owl-next free-basic-ui-elements-right-arrow'
+                    ],
+                    navText: false,
+
+
+                    autoplay: false,
+                    autoplayTimeout: 5000,
+                    smartSpeed: 800,
+                    autoplayHoverPause: true,
+                });
+
+                $this.on('changed.owl.carousel translated.owl.carousel dragged.owl.carousel', function (
+                    property) {
+                    var current = property.item.index;
+                    $this.find('.owl-item:not(.active)').each(function () {
+                        control_video(jQuery(this).find('.video'), 'pause');
+                    });
+                    $this.find('.owl-item.active').each(function () {
+                        control_video(jQuery(this).find('.video'), 'play');
+                    });
+                });
+            } else {
+                control_video(jQuery('.banner-area-5c923fec970e1').find('.video'), 'play');
+            }
+        });
+        jQuery(document).ready(function (jQuery) {
+            jQuery('.icon-box-carousel-5c9242f5a85be').each(function () {
+                var $this = jQuery(this);
+
+                if ($this.find('.icon-box').length > 1) {
+                    $this.addClass('owl-carousel').owlCarousel({
+                        loop: true,
+                        items: 1,
+                        nav: false,
+                        dots: false,
+                        autoplay: true,
+                        autoplayTimeout: 5000,
+                        smartSpeed: 800,
+                        autoplayHoverPause: true,
+                        navText: false,
+                        margin: 1,
+                        responsive: {
+                            0: {
+                                items: 1
+                            },
+                            576: {
+                                items: 2
+                            },
+                            768: {
+                                items: 3
+                            },
+                            992: {
+                                items: 4
+                            },
+                            1200: {
+                                items: 5
+                            },
+                        }
+                    });
+                }
+            });
+        });
+        jQuery(document).ready(function (jQuery) {
+            jQuery('.portfolio-5c932a9eff2df').pt_portfolio_slider({
+                loop: true,
+                autoplay: false,
+                autoplayTimeout: 5000,
+            })
+        });
+        jQuery(document).ready(function (jQuery) {
+            jQuery('.vertical-tabs-5c9381c4295a1').pt_tabs()
+        });
+        jQuery(document).ready(function (jQuery) {
+            jQuery('.team-carousel-5c938618203d9').each(function () {
+                var $this = jQuery(this);
+
+                if ($this.find('.team-item').length > 1) {
+                    $this.addClass('owl-carousel').owlCarousel({
+                        loop: true,
+                        items: 1,
+                        nav: true,
+                        dots: false,
+                        autoplay: true,
+                        autoplayTimeout: 5000,
+                        smartSpeed: 800,
+                        autoplayHoverPause: true,
+                        navClass: ['owl-prev free-basic-ui-elements-left-arrow',
+                            'owl-next free-basic-ui-elements-right-arrow'
+                        ],
+                        navText: false,
+                        margin: 1,
+                        responsive: {
+                            0: {
+                                items: 1
+                            },
+                            576: {
+                                items: 2
+                            },
+                            768: {
+                                items: 3
+                            },
+                            992: {
+                                items: 4
+                            },
+                            1200: {
+                                items: 5
+                            },
+                        }
+                    });
+                }
+            });
+        });
+        jQuery(document).ready(function (jQuery) {
+            jQuery('.price-list-block-5c947c98d902a').each(function () {
+                var $this = jQuery(this);
+
+                if ($this.find('.price-list-item').length > 1) {
+                    $this.addClass('owl-carousel').owlCarousel({
+                        loop: true,
+                        items: 1,
+                        nav: true,
+                        dots: false,
+                        autoplay: false,
+                        autoplayTimeout: 5000,
+                        smartSpeed: 800,
+                        autoplayHoverPause: true,
+                        navClass: ['owl-prev free-basic-ui-elements-left-arrow',
+                            'owl-next free-basic-ui-elements-right-arrow'
+                        ],
+                        navText: false,
+                        responsive: {
+                            0: {
+                                items: 1
+                            },
+                            768: {
+                                items: 2
+                            },
+                            992: {
+                                items: 3
+                            },
+                            1200: {
+                                items: 4
+                            },
+                        }
+                    });
+                }
+            });
+        });
+        jQuery(document).ready(function (jQuery) {
+            jQuery('.brand-block-5c9229f8c78b9').each(function () {
+                var $this = jQuery(this);
+
+                if ($this.find('.brand-item').length > 1) {
+                    $this.addClass('owl-carousel').owlCarousel({
+                        loop: true,
+                        items: 1,
+                        nav: false,
+                        dots: false,
+                        autoplay: false,
+                        autoplayTimeout: 5000,
+                        smartSpeed: 800,
+                        autoplayHoverPause: true,
+                        navText: false,
+                        responsive: {
+                            0: {
+                                items: 1
+                            },
+                            576: {
+                                items: 2
+                            },
+                            768: {
+                                items: 3
+                            },
+                            992: {
+                                items: 4
+                            },
+                            1200: {
+                                items: 5
+                            },
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+    <script src='../wp-content/plugins/pt-luxa-addons/assets/js/jquery.scrollbar.min22c9.js?ver=0.2.10'></script>
+    <script src='../wp-content/themes/luxa/js/swiper.min8a54.js?ver=1.0.0'></script>
+    <script src='../wp-content/themes/luxa/js/scripts.js'></script>
+    <script src='../wp-includes/js/wp-embed.min03ec.js?ver=5.3.4'></script>
+    <script src='../wp-content/plugins/pt-luxa-addons/assets/js/js_composer_front.min8a54.js?ver=1.0.0'></script>
+    <script src='../wp-content/plugins/pt-luxa-addons/assets/js/pt-portfolio-slider8a54.js?ver=1.0.0'></script>
+    <script src='../wp-content/plugins/pt-luxa-addons/assets/js/pt-tabs8a54.js?ver=1.0.0'></script>
+
+</body>
+
+</html>
